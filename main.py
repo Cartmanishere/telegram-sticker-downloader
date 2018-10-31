@@ -8,6 +8,8 @@ import os
 import string
 import random
 
+TOKEN = ''
+
 def assure_folder_exists(folder, root):
 	full_path = os.path.join(root, folder)
 	if os.path.isdir(full_path):
@@ -184,7 +186,7 @@ class StickerDownloader:
 
 if __name__ == "__main__":
 
-	downloader = StickerDownloader('490239600:AAEgkBhf9gXxwMtfE1rLF_p7HmEXmRg4y-4')
+	downloader = StickerDownloader(TOKEN)
 	print('Welcome to Telegram Downloader..')
 	names = []
 	while True:

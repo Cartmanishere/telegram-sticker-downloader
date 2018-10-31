@@ -1,6 +1,8 @@
 ## Sticker Downloader for Telegram
 
-This is a python script to download the sticker packs from Telegram.
+This is a python script to download the sticker packs from Telegram. This script will download and convert the stickers into PNG images.
+
+NOTE: You need a telegram bot token to make use of the script. You can easily make a bot on the Telegram site.
 
 ### Dependencies:
 
@@ -9,6 +11,8 @@ This is a python script to download the sticker packs from Telegram.
 - Python 3.6 (Haven't tested for other Python 3 versions.)
 
 ### Usage:
+
+- Open `main.py` and enter the telegram bot token at `TOKEN=<yourtoken>`
 
 - Get the URL of the telegram sticker pack
 
