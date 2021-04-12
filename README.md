@@ -16,7 +16,7 @@ NOTE: You need a telegram bot token to make use of the script. You can easily ma
 
 - Get the URL of the telegram sticker pack
 
-- Run the script - `python main.py'`
+- Run the script - `python main.py`
 
 - Enter the url of the sticker pack
 
